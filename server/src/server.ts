@@ -28,7 +28,8 @@ app.register(uploadRoutes)
 app
   .listen({
     port: 3333,
-    host: '0.0.0.0',
+    host: '0.0.0.0', // mobile and web
+    // host: '127.0.0.1',
   })
   .then(() => {
     console.log(`Server listening on port ${3333}`)
